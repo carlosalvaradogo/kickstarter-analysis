@@ -4,25 +4,29 @@
 
 ### Purpose
 
-#### The purpose of the analysis was to delve into a Kickstarter dataset to extract insights that would serve to elucidate the following two matters: 1) how campaigns categorized as "theater" fared in terms of outcome according to their launch date, and 2) how campaigns subcategorized as "plays" fared in terms of outcome according to their goals. 
+The purpose of the analysis was to delve into a Kickstarter dataset to extract insights that would serve to elucidate the following two matters: 1) how campaigns categorized as "theater" fared in terms of outcome according to their launch date, and 2) how campaigns subcategorized as "plays" fared in terms of outcome according to their goals. 
 
 ### Background
 
-#### The analysis was carried out against the background of a request by an aspiring playwright, Louise, and her play "Fever", that having come close to achieving her fund-raising goal is now looking for insights into the matters specified under "### Purpose" (see above).
+The analysis was carried out against the background of a request by an aspiring playwright, Louise, and her play "Fever", that having come close to achieving her fund-raising goal is now looking for insights into the matters specified under "### Purpose" (see above).
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-#### This particular aspect of the project was concerned with analyzing the outcome of campaigns categorized as "theater" according to their Launch Date. It involved the construction of a pivot table that would count the intances of campaigns categorized as "theater" having achieved a particular outcome (out of three possible: "successful", "failed", and "canceled") and arranging them according to the month of their launch date. Addittionaly, a line graph was produced to facilitate the observation of trends and reach the conclusions that will be discussed below.
+This particular aspect of the project was concerned with analyzing the outcome of campaigns categorized as "theater" according to their Launch Date. It involved the construction of a pivot table that would count the intances of campaigns categorized as "theater" having achieved a particular outcome (out of three possible: "successful", "failed", and "canceled") and arranging them according to the month of their launch date. Addittionaly, a line graph was produced to facilitate the observation of trends and reach the conclusions that will be discussed below.
+
+![](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
-#### This particular aspect of the project was concerned with analyzing the outcome of campaigns subcategorized as "plays" according to their goals. It involved the construction of a pivot table that would count the intances of campaigns subcategorized as "plays" having achieved a particular outcome (out of three possible: "successful", "failed", and "canceled") and subsequently calculating the porcentages that the number of instances represented with respect to the total number of campaigns and arranging them according to determinate funding goal ranges. Addittionaly, a line graph was produced to facilitate the observation of trends and reach the conclusions that will be discussed below.
+This particular aspect of the project was concerned with analyzing the outcome of campaigns subcategorized as "plays" according to their goals. It involved the construction of a pivot table that would count the intances of campaigns subcategorized as "plays" having achieved a particular outcome (out of three possible: "successful", "failed", and "canceled") and subsequently calculating the porcentages that the number of instances represented with respect to the total number of campaigns and arranging them according to determinate funding goal ranges. Addittionaly, a line graph was produced to facilitate the observation of trends and reach the conclusions that will be discussed below.
+
+![](Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
-#### The only challenge or difficulty faced was related to the computing of the number of observations that belonged to each particular range of funding goals in the "Outcomes Based on Goals" part of the analysis. Specifically, utilizing the "COUNTIFS" function, the criteria with which to filter for campaigns subcategorized as "plays" was omitted, such that both the porcentages calculaste and the line graph displayed wrong calculations. The fix involved simply correcting the formula so as to include the missing conditional.
+The only challenge or difficulty faced was related to the computing of the number of observations that belonged to each particular range of funding goals in the "Outcomes Based on Goals" part of the analysis. Specifically, utilizing the "COUNTIFS" function, the criteria with which to filter for campaigns subcategorized as "plays" was omitted, such that both the porcentages calculaste and the line graph displayed wrong calculations. The fix involved simply correcting the formula so as to include the missing conditional.
 
 ## Results
 
